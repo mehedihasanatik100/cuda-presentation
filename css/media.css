@@ -1,0 +1,437 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+	/* ==================Header area start=================== */
+    .menu ul li{
+        text-align: center;
+    }
+    /* ==================Header area end=================== */
+    /* ==================banner area start=================== */
+    .banner {
+        padding: 25px 0 45px;
+    }
+    .banner-content h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .banner-button {
+        padding-top: 20px;
+    }
+    /* ==================banner area end=================== */
+    /* ==================service area start=================== */
+    .service {
+        padding: 31px 0 50px;
+    }
+    .common-title h2 {
+        font-size: 29px;
+    }
+    .common-title hr {
+        height: 4px;
+        margin: 5px auto;
+    }
+    .common-title p {
+        font-size: 15px;
+    }
+    .service-item {
+        padding: 25px 0 0;
+    }
+    /* ==================service area end=================== */
+        /* ==================Team area start=================== */
+        .team {
+            padding: 35px 0;
+        }
+        .T_h2{
+            font-size: 23px !important;
+        }
+        .T_p{
+            font-size: 14px !important;
+        }
+        .Team_item {
+            padding-top: 30px;
+        }
+        .Team-text h2 {
+            padding-top: 18px;
+            font-size: 22px;
+        }
+        .Team-text p {
+            margin: 0;
+            padding: 8px 6px;
+        }
+        .Team-icon ul {
+            padding-left: 40px;
+        }
+        /* ==================Team area end=================== */
+        /* ==================Skills area start===================  */
+        .Skill{
+            padding: 30px 0 30px !important;
+        }
+        .SK_h2{
+            font-size: 33px !important;
+        }
+        .SK_hr{
+            margin: 7px auto;
+        }
+        .skill-item {
+            padding-top: 35px;
+        }
+        .skill-item h2 {
+            padding-top: 15px;
+            font-size: 22px;
+        }
+        /* ==================Skills area end===================  */
+        /* ==================portfolio area start=================== */
+        .portfolio {
+            padding: 35px 0;
+        }
+        .portfolio-menu ul {
+            padding: 20px 0 0;
+        }
+        .portfolio-menu ul li a {
+            font-size: 18px;
+            padding: 4px 12px;
+            margin-left: 4px;
+
+        }
+        .portfolio-item {
+            padding-top: 30px;
+        }
+        .portfolio-item p {
+            padding-top: 10px;
+            font-size: 16px;
+        }
+        .btn2{
+            font-size: 16px;
+            padding: 15px 40px;
+        }
+        /* ==================portfolio area start=================== */
+        /* ==================About us area start=================== */
+    .about {
+        padding: 30px 0;
+    }
+    .ab-h2{
+        font-size: 22px !important;
+    }
+    .ab-hr{
+        background: #b73c6d !important;
+    }
+    .about-item-content p {
+        padding-right: 0px;
+        font-size:19px;
+    }
+    .about-item{
+        padding-top: 25px;
+        text-align: center;
+    }
+    .about-item-img{
+        padding-bottom: 15px;
+    }
+    .about-item-content h2 {
+        padding: 10px 0 0px;
+        font-size: 20px;
+    }
+    .about-item-content span {
+        font-size: 16px;
+    }
+    /* ==================About us area end=================== */
+    /* ==================contact area start=================== */
+    .contact {
+        padding: 30px 0;
+    }
+    .contact-box {
+        width: 100%;
+    }
+    .username input {
+        margin-top: 30px;
+    }
+    .contact-box textarea {
+        margin-top: 10px;
+    }
+    /* ==================contact area end=================== */
+     /* ==================footer area start=================== */
+     footer {
+        padding: 15px 0;
+    }
+    .footer-menu ul li a {
+        font-size: 16px;
+        padding: 0px 8px;
+    }
+    /* ==================footer area end=================== */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)  {
+	/* ==================Header area start=================== */
+    .menu ul li{
+        text-align: center;
+    }
+    /* ==================Header area end=================== */
+    /* ==================banner area start=================== */
+    .banner {
+        padding: 55px 0 80px;
+    }
+    .banner-content h1 {
+        font-size: 35px;
+    }
+    .banner-button {
+        padding-top: 35px;
+    }
+    /* ==================banner area end=================== */
+    /* ==================service area start=================== */
+    .service {
+        padding: 50px 0 70px;
+    }
+    .common-title h2 {
+        font-size: 36px;
+    }
+    .common-title hr {
+        height: 4px;
+        margin: 7px auto;
+    }
+    .common-title p {
+        font-size: 16px;
+    }
+    .service-item {
+        padding: 30px 0 0;
+    }
+    /* ==================service area end=================== */
+    /* ==================Team area start=================== */
+    .team {
+        padding: 60px 0 65px;
+    }
+    .T_h2{
+        font-size: 32px !important;
+    }
+    .T_p{
+        font-size: 15px !important;
+    }
+    .Team_item {
+        padding-top: 40px;
+    }
+    .Team-text h2 {
+        padding-top: 25px;
+        font-size: 23px;
+    }
+    .Team-text p {
+        margin: 0;
+        padding: 20px 22px;
+    }
+    .Team-icon ul {
+        padding-left: 15px;
+    }
+    /* ==================Team area end=================== */
+    /* ==================Skills area start===================  */
+    .Skill{
+        padding: 60px 0 60px !important;
+    }
+    .SK_h2{
+        font-size: 36px !important;
+    }
+    .SK_hr{
+        margin: 7px auto;
+    }
+    .skill-item {
+        padding-top: 40px;
+    }
+    /* ==================Skills area end===================  */
+    /* ==================portfolio area start=================== */
+    .portfolio {
+        padding: 60px 0;
+    }
+    .portfolio-menu ul {
+        padding: 20px 0 0;
+    }
+    .portfolio-item {
+        padding-top: 38px;
+    }
+    .portfolio-item p {
+        padding-top: 19px;
+        font-size: 17px;
+    }
+    /* ==================portfolio area start=================== */
+    /* ==================About us area start=================== */
+    .about {
+        padding: 50px 0;
+    }
+    .about-item-content p {
+        padding-right: 0;
+    }
+    .about-item{
+        padding-top: 35px;
+        text-align: center;
+    }
+    .about-item-img{
+        padding-bottom: 15px;
+    }
+    .about-item-content h2 {
+        padding: 10px 0 0px;
+        font-size: 20px;
+    }
+    .about-item-content span {
+        font-size: 16px;
+    }
+    /* ==================About us area end=================== */
+     /* ==================contact area start=================== */
+     .contact {
+        padding: 50px 0;
+    }
+    .contact-box {
+        width: 100%;
+    }
+    .username input {
+        margin-top: 30px;
+    }
+    .contact-box textarea {
+        margin-top: 10px;
+    }
+    /* ==================contact area end=================== */
+    /* ==================footer area start=================== */
+    footer {
+        padding: 20px 0;
+    }
+    .footer-menu ul li a {
+        font-size: 17px;
+        padding: 5px 6px;
+    }
+    /* ==================footer area end=================== */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)  {
+	/* ==================Header area start=================== */
+    .menu ul li{
+        text-align: center;
+    }
+    /* ==================Header area end=================== */
+    /* ==================banner area start=================== */
+    .banner {
+        padding: 75px 0 100px;
+    }
+    .banner-content h1 {
+        font-size: 38px;
+        line-height: 40px;
+    }
+    .banner-button {
+        padding-top: 45px;
+    }
+    /* ==================banner area end=================== */
+    /* ==================service area start=================== */
+    .service {
+        padding: 80px 0 100px;
+    }
+    .common-title h2 {
+        font-size: 38px;
+    }
+    .common-title hr {
+        height: 4px;
+        margin: 10px auto;
+    }
+    .common-title p {
+        font-size: 17px;
+    }
+    .service-item {
+        padding: 40px 0 0;
+    }
+    /* ==================service area end=================== */
+    /* ==================Team area start=================== */
+    .team {
+        padding: 85px 0 95px;
+    }
+    .Team_item {
+        padding-top: 50px;
+    }
+    .Team-text h2 {
+        padding-top: 25px;
+        font-size: 23px;
+    }
+    .Team-text p {
+        margin: 0;
+        padding: 20px 22px;
+    }
+    .Team-icon ul {
+        padding-left: 60px;
+    }
+    /* ==================Team area end=================== */
+    /* ==================Skills area start===================  */
+    .Skill {
+        padding: 80px 0 90px;
+    }
+    .SK_h2 {
+        font-size: 38px !important;
+    }
+    .SK_hr{
+        margin: 7px auto;
+    }
+    .skill-item {
+        padding-top: 50px;
+    }
+    /* ==================Skills area end===================  */
+    /* ==================portfolio area start=================== */
+    .portfolio {
+        padding: 80px 0;
+    }
+    .portfolio-menu ul {
+        padding: 25px 0 0;
+    }
+    .portfolio-item {
+        padding-top: 45px;
+    }
+    .portfolio-item p {
+        padding-top: 19px;
+        font-size: 17px;
+    }
+    /* ==================portfolio area start=================== */
+    /* ==================About us area start=================== */
+    .about {
+        padding: 77px 0;
+    }
+    .about-item-content p {
+        padding-right: 0;
+    }
+    .about-item{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .about-item-img{
+        padding-bottom: 20px;
+    }
+    .about-item-content h2 {
+        padding: 15px 0 5px;
+
+    }
+    /* ==================About us area end=================== */
+    /* ==================contact area start=================== */
+    .contact {
+        padding: 80px 0;
+    }
+    .username input {
+        margin-top: 40px;
+    }
+    .contact-box textarea {
+        margin-top: 10px;
+    }
+    /* ==================contact area end=================== */
+    /* ==================footer area start=================== */
+    footer {
+        padding: 30px 0;
+    }
+    .footer-menu ul li a {
+        font-size: 19px;
+        padding: 5px 14px;
+    }
+    /* ==================footer area end=================== */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+	
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}

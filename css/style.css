@@ -1,0 +1,390 @@
+/* common css start */
+body{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+/* common css end */
+
+/* ==================Header area start=================== */
+header{
+    background: #87509c;
+    padding: 20px 0px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    color: #ffffff !important;
+    padding: 3px 15px !important;
+    margin: 5px 5px;
+    transition: .3S;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a.active,
+.menu ul li a:hover{
+    background: #643a79;
+    border-radius: 5PX;
+}
+.C-nav i {
+    color: #fff;
+    border-color: rgb(255 255 255 / 93%);
+}
+/* ==================Header area end=================== */
+/*==================banner area start===================*/
+.banner{
+    padding: 100px 0 130px;
+    background: #87509c;
+}
+.banner-content h1{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.banner-button{
+    padding-top: 70px;
+}
+.btn1{
+    background: #eb7d4b;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px #c86a40;
+    transition: .5s;
+}
+.btn1:hover{
+    box-shadow: none;
+}
+/*==================banner area end===================*/
+/* ==================service area start=================== */
+.service{
+    padding: 110px 0 120px;
+    background: #17c2a4;
+}
+.service-item{
+    padding: 60px 0 0;
+}
+.common-title{
+
+}
+.common-title h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.common-title hr{
+    height: 5px;
+    width: 88px;
+    background: #14a58c;
+    display: block;
+    margin: 15px auto;
+}
+.common-title p{
+    font-size: 18px;
+    word-spacing: 1px;
+}
+.S_icon{
+    height: 170px;
+}
+.S_icon:hover{
+    transform: scale(.8);
+    transition: .5s;
+}
+.S_content{}
+.S_content h3{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.S_content p{
+    font-weight: 300;
+    padding: 0 10%;
+}
+/* ==================service area end=================== */
+/* ==================Team area start=================== */
+.team{
+    padding: 110px 0 120px;
+    background: #e7f1f8;
+}
+.Team_item{
+    padding-top: 70px;
+}
+.T_h2{
+    color: #3c4761;
+    word-spacing: 0px !important;
+}
+.T_hr{
+    background: #c8d9e5 !important;
+}
+.T_p{
+    color: #3c4761 !important;
+    word-spacing: 0px !important;
+}
+.Tram-img{}
+.Tram-img img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    transition: .5s;
+}
+.Tram-img img:hover{
+    transform: scale(.9);
+}
+.Team-text{}
+.Team-text h2{
+    margin-bottom: 0;
+    padding-top: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #27283d;
+}
+.Team-text span{
+    margin: 0;
+    color: #30bae7;
+}
+.Team-text p{
+    padding: 30px 22px;
+    font-weight: 300;
+    color: #3c4761;
+}
+.Team-icon{}
+.Team-icon ul{
+    padding-left: 16px;
+    position: relative;
+    display: flex;
+}
+.Team-icon ul li{
+    position: relative;
+    list-style: none;
+}
+.Team-icon ul li a{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bdd1df;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50%;
+    color: #e2e2e2;
+    transition: .3s;
+}
+.Team-icon ul li a i{
+    color: #fff;
+    font-size: 22px;
+}
+.Team-icon ul li a:hover{
+    transform: scale(.9);
+    background: #30bae7 !important;
+}
+/* ==================Team area end=================== */
+/* ==================Skills area start=================== */
+.Skill{
+    padding: 110px 0 120px;
+}
+.SK_h2{
+    font-size: 40px !important;
+    color: #3c4761;
+}
+.SK_hr{
+    background: #dfe8ed !important;
+}
+.SK_p{
+    color: #3c4761;
+    padding: 0 3%;
+}
+.skill-item{
+    padding-top: 80px;
+}
+.skill-item img{}
+.skill-item h2{
+    margin: 0;
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #3c4761;
+}
+/* ==================Skills area end=================== */
+/* ==================portfolio area start=================== */
+.portfolio{
+    padding: 110px 0;
+    background: #ffdd99;
+}
+.po_h2{
+    color: #393939;
+}
+.po_hr{
+    background: #e5c37f !important;
+}
+.po_p{
+    color: #393939;
+    padding: 0 4%;
+}
+.portfolio-menu ul{
+    margin: 0;
+    padding: 35px 0 0;
+    list-style: none;
+    text-align: center;
+}
+.portfolio-menu ul li{
+    display: inline-block;
+}
+.portfolio-menu ul li a{
+    font-size: 18px;
+    color: #393939;
+    text-decoration: none;
+    display: block;
+    padding: 5px 25px;
+    background: #ebc985;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-left: 7px;
+    transition: .5s;
+}
+.portfolio-menu ul li a:hover{
+    background: #fff ;
+}
+.portfolio-item{
+    padding-top: 60px;
+}
+.portfolio-item p{
+    padding-top: 25px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #393939;
+}
+.btn2{
+    background: #17c2a4 !important;
+    box-shadow: 0 6px #14a58c ;
+}
+
+/* ==================portfolio area start=================== */
+/* ==================About us area start=================== */
+.about{
+    padding: 110px 0;
+    background: #d74680;
+}
+.ab-h2{}
+.ab-hr{
+    margin: 10px auto !important;
+}
+.ab-p{}
+.about-item{
+    padding-top: 60px;
+}
+.about-item-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.about-item-img img:hover{
+    transform: scale(.9);
+}
+.about-item-content p{
+    margin: 0;
+    padding-right: 26px;
+    font-size: 21px;
+    font-weight: 300;
+}
+.about-item-content h2{
+    margin: 0;
+    padding: 25px 0 10px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-item-content span{
+    margin: 0;
+    font-size: 18px;
+    color: #ffdd99;
+}
+/* ==================About us area end=================== */
+/* ==================contact area start=================== */
+.contact{
+    padding: 110px 0;
+    background: #3c5499;
+}
+.cn-h2{}
+.cn-hr{
+    background: #273a71 !important;
+    margin: 10px auto !important;
+}
+.cn-p{}
+.contact-box {
+    width: 80%;
+    margin: auto;
+}
+.username:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.username input{
+    margin-top: 70px;
+    font-size: 20px;
+    background: #273a71;
+    padding: 3px;
+    color: #fff;
+    border: 1px transparent;
+}
+.contact-box textarea::placeholder,
+.username input::placeholder{
+    color: #fff;
+}
+
+.username input:last-child{
+    width: 49%;
+    float: left;
+}
+.username input:first-child{
+    width: 49%;
+    float: right;
+}
+.contact-box textarea{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    background: #273a71;
+    padding: 3px;
+    color: #fff;
+    border: 1px transparent;
+}
+.btn3{
+    background: #30bae7 !important;
+    box-shadow: 0 6px #299ec5;
+}
+/* ==================contact area end=================== */
+/* ==================footer area start=================== */
+footer{
+    padding: 40px 0;
+    background:#344b8e ;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+.footer-menu ul li a:hover{
+    color: #30bae7;
+}
+/* ==================footer area end=================== */
